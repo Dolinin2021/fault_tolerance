@@ -16,6 +16,6 @@
 
 <img width="1919" height="1079" alt="изображение" src="https://github.com/user-attachments/assets/0c825b74-d9ea-4986-bd3e-6726f9136c1b" />
 
-3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.
+3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика:
 
 <img width="1919" height="371" alt="изображение" src="https://github.com/user-attachments/assets/6ae089f5-b257-4bf1-9fdb-53c6a0b59ffc" />
