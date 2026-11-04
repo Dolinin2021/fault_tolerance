@@ -1,0 +1,14 @@
+#cloud-config
+users:
+  - name: ubuntu
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL0/GBbbE2zJsWZICZqwvmkGmr9MKJA8mMPBViCUkVYE ilya@ilya-VirtualBox
+
+runcmd:
+  - apt-get update
+  - apt-get install -y nginx
+  - systemctl start nginx
+  - systemctl enable nginx
